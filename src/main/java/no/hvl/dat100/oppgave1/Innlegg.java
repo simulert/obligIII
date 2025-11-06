@@ -37,6 +37,7 @@ public abstract class Innlegg {
 	}
 	
 	public String getBruker() {
+		
 		return bruker;
 		throw new UnsupportedOperationException(TODO.method());
 
@@ -83,6 +84,7 @@ public abstract class Innlegg {
 	
 	@Override
 	public String toString() {
+		
 		return this.id +"\n" + this.bruker + "\n" + this.dato + "\n" + this.likes + "\n";
 		throw new UnsupportedOperationException(TODO.method());
 				
