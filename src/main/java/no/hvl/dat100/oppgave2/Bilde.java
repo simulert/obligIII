@@ -3,7 +3,6 @@ package no.hvl.dat100.oppgave2;
 import no.hvl.dat100.common.TODO;
 
 public class Bilde extends Tekst {
-
 	// TODO - objekt variable
 	private String url;
 	
