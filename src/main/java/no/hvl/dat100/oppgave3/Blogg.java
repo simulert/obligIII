@@ -4,7 +4,6 @@ import no.hvl.dat100.common.TODO;
 import no.hvl.dat100.oppgave1.*;
 
 public class Blogg {
-
 	// TODO: objektvariable 
 	private Innlegg[] innleggtabell;
 	private int nesteledig;
@@ -50,6 +49,7 @@ public class Blogg {
 
 	public boolean ledigPlass() {
 		throw new UnsupportedOperationException(TODO.method());
+		
 		return nesteledig < innleggtabell.length;
 	}
 	
